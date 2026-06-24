@@ -1,0 +1,8 @@
+﻿method,accuracy,f1_correct,precision_correct,recall_correct
+Rule-Based (CV-tuned threshold),0.65,0.788,0.661,0.975
+Logistic Regression [raw features],1.0,1.0,1.0,1.0
+SVM (RBF) [raw features],0.983,0.988,0.976,1.0
+Random Forest [raw features],0.95,0.963,0.951,0.975
+Logistic Regression [similarity features],0.583,0.648,0.742,0.575
+SVM (RBF) [similarity features],0.617,0.676,0.774,0.6
+Random Forest [similarity features],0.767,0.821,0.842,0.8
